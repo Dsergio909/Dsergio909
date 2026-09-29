@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Sergio García — AI automation & creative builder" width="100%"/>
+<img src="assets/banner.svg" alt="Sergio García: pixel art home office with AI agents, cats and a 3D printer" width="100%"/>
 
-**🇪🇸 Español · [🇬🇧 English below](#-english)**
+**🌎 Español · [English below ↓](#-english)**
 
 </div>
 
@@ -10,7 +10,7 @@
 
 ## 👾 Hola, soy Sergio
 
-Estudiante de **Negocios Internacionales** (VIII semestre, Bogotá 🇨🇴) que resuelve problemas operativos con la herramienta que el problema pida: **IA generativa, automatización, código y datos**. No vengo de ingeniería; aprendo construyendo.
+Estudiante de **Negocios Internacionales** (VIII semestre, Bogotá, Colombia) que resuelve problemas operativos con la herramienta que el problema pida: **IA generativa, automatización, código y datos**. No vengo de ingeniería; aprendo construyendo.
 
 Me apasiona la **IA**: automatizar procesos, crear agentes y conectar herramientas entre sí.
 
@@ -73,11 +73,11 @@ Me apasiona la **IA**: automatizar procesos, crear agentes y conectar herramient
 
 ---
 
-## 🇬🇧 English
+## 🌎 English
 
 ### 👾 Hi, I'm Sergio
 
-**International Business** student (8th semester, Bogotá 🇨🇴) who solves operational problems with whatever tool the problem calls for: **generative AI, automation, code and data**. I don't come from an engineering background; I learn by building.
+**International Business** student (8th semester, Bogotá, Colombia) who solves operational problems with whatever tool the problem calls for: **generative AI, automation, code and data**. I don't come from an engineering background; I learn by building.
 
 I'm passionate about **AI**: automating processes, building agents and connecting tools together.
 
