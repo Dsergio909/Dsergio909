@@ -30,7 +30,7 @@ Me apasiona la **IA**: automatizar procesos, crear agentes y conectar herramient
 | **Juego estilo kart** | Prototipo hecho con Claude Code y Antigravity. | 🔧 En construcción |
 | **Oficina virtual de tendencias 3D** | Espacio virtual para explorar tendencias de figuras 3D. | 🧪 Prototipo |
 
-> 📌 Agrega aquí los enlaces a cada repo cuando estén publicados.
+<!-- 📌 Agrega aquí los enlaces a cada repo cuando estén publicados. -->
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
@@ -44,7 +44,7 @@ Me apasiona la **IA**: automatizar procesos, crear agentes y conectar herramient
 
 **Automatización**
 
-![Apps Script](https://img.shields.io/badge/Apps_Script-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![Apps Script](https://img.shields.io/badge/Apps_Script-4285F4?style=for-the-badge&logo=googleappsscript&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
 ![Make](https://img.shields.io/badge/Make-6D00CC?style=for-the-badge&logo=make&logoColor=white)
 
@@ -52,13 +52,13 @@ Me apasiona la **IA**: automatizar procesos, crear agentes y conectar herramient
 
 ![Blender](https://img.shields.io/badge/Blender-E87D0D?style=for-the-badge&logo=blender&logoColor=white)
 ![Inkscape](https://img.shields.io/badge/Inkscape-000000?style=for-the-badge&logo=inkscape&logoColor=white)
-![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white)
-![Bambu Lab](https://img.shields.io/badge/Bambu_Studio-00AE42?style=for-the-badge&logoColor=white)
+![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIj48cGF0aCBkPSJNMTggNy41QTggOCAwIDEgMCAxOCAxNi41Ii8%2BPC9zdmc%2B&logoColor=white)
+![Bambu Lab](https://img.shields.io/badge/Bambu_Studio-00AE42?style=for-the-badge&logo=bambulab&logoColor=white)
 
 **Negocios y datos**
 
 ![Bloomberg](https://img.shields.io/badge/Bloomberg_Market_Concepts-000000?style=for-the-badge&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjIiPjxyZWN0IHg9IjMiIHk9IjMiIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgcng9IjIiLz48cGF0aCBkPSJNMyA5aDE4TTMgMTVoMThNOSAzdjE4TTE1IDN2MTgiLz48L3N2Zz4%3D&logoColor=white)
 
 🧪 **También exploro:** Antigravity · Google Flow · Higgsfield · Adobe
 
@@ -66,7 +66,7 @@ Me apasiona la **IA**: automatizar procesos, crear agentes y conectar herramient
 
 ## 📫 Contacto
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sergio-david-garcia-celis-836b8a250)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZmZiI%2BPGNpcmNsZSBjeD0iNC41IiBjeT0iNC41IiByPSIyLjUiLz48cmVjdCB4PSIyLjMiIHk9IjguNSIgd2lkdGg9IjQuNCIgaGVpZ2h0PSIxMy41Ii8%2BPHJlY3QgeD0iOSIgeT0iOC41IiB3aWR0aD0iNC4yIiBoZWlnaHQ9IjEzLjUiLz48cGF0aCBkPSJNMTMgMTMuNmMwLTIuNyAxLjgtNS40IDQuOS01LjQgMy4yIDAgNC42IDIuMSA0LjYgNS44VjIyaC00LjN2LTcuM2MwLTEuNi0uNS0yLjgtMi0yLjhTMTMgMTMgMTMgMTQuOHoiLz48L3N2Zz4%3D&logoColor=white)](https://linkedin.com/in/sergio-david-garcia-celis-836b8a250)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dsergio909@gmail.com)
 
 <br/>
