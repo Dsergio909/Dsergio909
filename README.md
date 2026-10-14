@@ -42,6 +42,7 @@ Profesional en **Negocios Internacionales** (Universidad Santo Tomás, grado en 
 **Automatización**
 
 ![Apps Script](https://img.shields.io/badge/Apps_Script-4285F4?style=for-the-badge&logo=googleappsscript&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
 ![Make](https://img.shields.io/badge/Make-6D00CC?style=for-the-badge&logo=make&logoColor=white)
 
 **Diseño y 3D**
@@ -92,7 +93,7 @@ Profesional en **Negocios Internacionales** (Universidad Santo Tomás, grado en 
 | **🎮 Crunch Heist** | Roblox game with an original world, built with Claude Code. | In development |
 
 ### 🧰 Stack
-Claude Code · Gemini · Local LLMs (Ollama) · Apps Script · AppSheet · Make · Blender · Inkscape · Canva · Bambu Studio · Bloomberg Market Concepts · Excel
+Claude Code · Gemini · Local LLMs (Ollama) · Apps Script · AppSheet · n8n · Make · Blender · Inkscape · Canva · Bambu Studio · Bloomberg Market Concepts · Excel
 
 ### 📫 Contact
 [LinkedIn](https://linkedin.com/in/sergio-david-garcia-celis-836b8a250) · [dsergio909@gmail.com](mailto:dsergio909@gmail.com)
