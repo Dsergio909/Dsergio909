@@ -1,106 +1,78 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Sergio García: pixel art home office with AI agents, cats and a 3D printer" width="100%"/>
+<a href="https://dsergio909.github.io/"><img src="assets/matrix.svg" alt="Sergio García en estilo Matrix: su cara formada por caracteres verdes y un registro de lo que hace que se va actualizando" width="100%"/></a>
 
-### 🌐 [Mira mi portafolio: dsergio909.github.io](https://dsergio909.github.io/)
+<a href="https://dsergio909.github.io/"><img src="assets/pill-portafolio.svg" alt="Portafolio" height="46"/></a>
+<a href="https://linkedin.com/in/sergio-david-garcia-celis-836b8a250"><img src="assets/pill-linkedin.svg" alt="LinkedIn" height="46"/></a>
+<a href="mailto:dsergio909@gmail.com"><img src="assets/pill-email.svg" alt="Email" height="46"/></a>
 
-**🌎 Español · [English below ↓](#-english)**
+<sub>Español · <a href="#english">English below ↓</a></sub>
 
 </div>
 
-<img src="assets/divider.svg" width="100%" alt=""/>
+<img src="assets/matrix-divider.svg" width="100%" alt=""/>
 
-
-## 👾 Hola, soy Sergio
+## `> whoami`
 
 Profesional en **Negocios Internacionales** (Universidad Santo Tomás, grado en trámite) en Bogotá, Colombia. Resuelvo problemas operativos con la herramienta que el problema pida: **automatización, IA generativa, código y datos**. No vengo de ingeniería: aprendo construyendo.
 
-- 🤖 Automatizo procesos sobre Google Workspace con Apps Script y AppSheet.
-- 🧠 Diseño agentes de IA con Claude Code y los conecto con otras herramientas por MCP.
-- 🎬 Hago contenido de venta con IA, Blender y DaVinci Resolve para un negocio de impresión 3D.
-- 🌎 Busco un rol **remoto o híbrido (Bogotá)** en automatización de procesos, operaciones con IA o mercadeo digital.
+Trabajo como director de un equipo de IAs: unas diseñan, otras hacen el volumen y Claude audita todo antes de que llegue a producción. Lo dudoso siempre pasa por una persona.
 
-<img src="assets/divider.svg" width="100%" alt=""/>
+Busco un rol **remoto o híbrido (Bogotá)** en automatización de procesos, operaciones con IA o mercadeo digital.
 
-## 🕹️ Proyectos
+<img src="assets/matrix-divider.svg" width="100%" alt=""/>
 
-| Proyecto | Qué es | Enlaces |
-|---|---|---|
-| **📡 Supplier Radar** | Reconstrucción pública, con datos ficticios, del sistema de proveedores y contratos que construí en mi práctica de compras: solicitudes automáticas, detección de respuestas por niveles de certeza (los casos dudosos pasan a revisión humana) y tableros calculados solo con fechas. Apps Script, sin herramientas de pago. | [Demo](https://dsergio909.github.io/supplier-radar/) · [Código](https://github.com/Dsergio909/supplier-radar) |
-| **🔭 Supplier Scout** | Busca y compara proveedores, incluso los que no están en internet: costo real del pedido, reseñas ponderadas, confianza por referidos y un agente opcional con la API de Claude. 23 países y 4 idiomas. | [Demo](https://dsergio909.github.io/supplier-scout/) · [Código](https://github.com/Dsergio909/supplier-scout) |
-| **🦊 Agentes de IA para FoxyMaker3D** | Agentes de diseño 3D y de marketing con Claude Code, conectados a Blender, Bambu Studio y DaVinci Resolve, y un panel local de inventario y contenido (Python, FastAPI, SQLite). | [Caso en el portafolio](https://dsergio909.github.io/#caso-foxy) (código privado) |
-| **🎮 Crunch Heist** | Juego de Roblox con universo propio, hecho con Claude Code. | En desarrollo |
+## `> ls ./proyectos`
 
-<img src="assets/divider.svg" width="100%" alt=""/>
+<a href="https://dsergio909.github.io/supplier-radar/"><img src="assets/card-supplier-radar.svg" alt="Supplier Radar: sistema de proveedores y contratos reconstruido con datos ficticios; lo dudoso pasa a revisión humana. Ver demo" width="49%"/></a>
+<a href="https://dsergio909.github.io/supplier-scout/"><img src="assets/card-supplier-scout.svg" alt="Supplier Scout: busca y compara proveedores, incluso los que no están en internet. Ver demo" width="49%"/></a>
+<a href="https://dsergio909.github.io/#caso-foxy"><img src="assets/card-agentes-ia.svg" alt="Agentes de IA: diseño 3D y marketing con Claude Code conectados por MCP a Blender, Bambu Studio y DaVinci Resolve. Ver caso" width="49%"/></a>
+<img src="assets/card-crunch-heist.svg" alt="Crunch Heist: juego de Roblox con universo propio, en pruebas" width="49%"/>
 
-## 🧰 Stack
+<sub>Código: [supplier-radar](https://github.com/Dsergio909/supplier-radar) · [supplier-scout](https://github.com/Dsergio909/supplier-scout) · el de los agentes es privado.</sub>
 
-**IA y agentes**
+<img src="assets/matrix-divider.svg" width="100%" alt=""/>
 
-![Claude](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white)
-![Ollama](https://img.shields.io/badge/IA_local-Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+## `> cat stack.txt`
 
-**Automatización**
+```text
+ia_y_agentes     Claude Code · MCP · Gemini · IA local (Ollama)
+automatizacion   Apps Script · AppSheet · n8n · Make
+3d_y_video       Blender · DaVinci Resolve · Bambu Studio · Inkscape · Canva
+negocios_datos   Excel · Bloomberg Market Concepts
+aprendiendo      Power BI · SQL
+explorando       Antigravity · Google Flow · Higgsfield · Adobe
+```
 
-![Apps Script](https://img.shields.io/badge/Apps_Script-4285F4?style=for-the-badge&logo=googleappsscript&logoColor=white)
-![AppSheet](https://img.shields.io/badge/AppSheet-1A73E8?style=for-the-badge&logo=google&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
-![Make](https://img.shields.io/badge/Make-6D00CC?style=for-the-badge&logo=make&logoColor=white)
+<img src="assets/matrix-divider.svg" width="100%" alt=""/>
 
-**Diseño y 3D**
+<a name="english"></a>
+<details>
+<summary><h2>🌎 English</h2></summary>
 
-![Blender](https://img.shields.io/badge/Blender-E87D0D?style=for-the-badge&logo=blender&logoColor=white)
-![Inkscape](https://img.shields.io/badge/Inkscape-000000?style=for-the-badge&logo=inkscape&logoColor=white)
-![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIj48cGF0aCBkPSJNMTggNy41QTggOCAwIDEgMCAxOCAxNi41Ii8%2BPC9zdmc%2B&logoColor=white)
-![Bambu Lab](https://img.shields.io/badge/Bambu_Studio-00AE42?style=for-the-badge&logo=bambulab&logoColor=white)
-![DaVinci Resolve](https://img.shields.io/badge/DaVinci_Resolve-233A51?style=for-the-badge&logo=davinciresolve&logoColor=white)
-
-**Negocios y datos**
-
-![Bloomberg](https://img.shields.io/badge/Bloomberg_Market_Concepts-000000?style=for-the-badge&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjIiPjxyZWN0IHg9IjMiIHk9IjMiIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgcng9IjIiLz48cGF0aCBkPSJNMyA5aDE4TTMgMTVoMThNOSAzdjE4TTE1IDN2MTgiLz48L3N2Zz4%3D&logoColor=white)
-
-📚 **Aprendiendo ahora:** Power BI · SQL
-
-🧪 **También exploro:** Antigravity · Google Flow · Higgsfield · Adobe
-
-<img src="assets/divider.svg" width="100%" alt=""/>
-
-## 📫 Contacto
-
-[![Portafolio](https://img.shields.io/badge/Portafolio-39FF88?style=for-the-badge&logoColor=0B1020)](https://dsergio909.github.io/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZmZiI%2BPGNpcmNsZSBjeD0iNC41IiBjeT0iNC41IiByPSIyLjUiLz48cmVjdCB4PSIyLjMiIHk9IjguNSIgd2lkdGg9IjQuNCIgaGVpZ2h0PSIxMy41Ii8%2BPHJlY3QgeD0iOSIgeT0iOC41IiB3aWR0aD0iNC4yIiBoZWlnaHQ9IjEzLjUiLz48cGF0aCBkPSJNMTMgMTMuNmMwLTIuNyAxLjgtNS40IDQuOS01LjQgMy4yIDAgNC42IDIuMSA0LjYgNS44VjIyaC00LjN2LTcuM2MwLTEuNi0uNS0yLjgtMi0yLjhTMTMgMTMgMTMgMTQuOHoiLz48L3N2Zz4%3D&logoColor=white)](https://linkedin.com/in/sergio-david-garcia-celis-836b8a250)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dsergio909@gmail.com)
-
-<br/>
-
----
-
-## 🌎 English
-
-### 👾 Hi, I'm Sergio
+### `> whoami`
 
 **International Business** graduate (Universidad Santo Tomás, diploma pending) based in Bogotá, Colombia. I solve operational problems with whatever tool the problem calls for: **automation, generative AI, code and data**. I don't come from an engineering background: I learn by building.
 
-- 🤖 I automate processes on Google Workspace with Apps Script and AppSheet.
-- 🧠 I design AI agents with Claude Code and connect them to other tools through MCP.
-- 🎬 I create sales content with AI, Blender and DaVinci Resolve for a 3D printing business.
-- 🌎 Looking for a **remote or hybrid (Bogotá)** role in process automation, AI operations or digital marketing.
+I work as the director of a team of AIs: some design, others handle the volume, and Claude audits everything before it ships. Anything unclear always goes to a person.
 
-### 🕹️ Projects
+Looking for a **remote or hybrid (Bogotá)** role in process automation, AI operations or digital marketing.
+
+### `> ls ./projects`
 
 | Project | What it is | Links |
 |---|---|---|
-| **📡 Supplier Radar** | Public rebuild, with synthetic data, of the supplier and contract system I built during my procurement internship: automatic document requests, confidence-tiered reply detection (unclear cases go to human review) and dashboards computed from dates only. Apps Script, zero paid tools. | [Demo](https://dsergio909.github.io/supplier-radar/) · [Code](https://github.com/Dsergio909/supplier-radar) |
-| **🔭 Supplier Scout** | Finds and compares suppliers, including those that aren't online: real order cost, weighted reviews, trust from referrals and an optional Claude API agent. 23 countries, 4 languages. | [Demo](https://dsergio909.github.io/supplier-scout/) · [Code](https://github.com/Dsergio909/supplier-scout) |
-| **🦊 AI agents for FoxyMaker3D** | 3D design and marketing agents built with Claude Code, connected to Blender, Bambu Studio and DaVinci Resolve, plus a local inventory and content dashboard (Python, FastAPI, SQLite). | [Case study](https://dsergio909.github.io/?lang=en#caso-foxy) (private code) |
-| **🎮 Crunch Heist** | Roblox game with an original world, built with Claude Code. | In development |
+| **Supplier Radar** | Public rebuild, with synthetic data, of the supplier and contract system I built during my procurement internship: automatic document requests, confidence-tiered reply detection (unclear cases go to human review) and dashboards computed from dates only. Apps Script, zero paid tools. | [Demo](https://dsergio909.github.io/supplier-radar/) · [Code](https://github.com/Dsergio909/supplier-radar) |
+| **Supplier Scout** | Finds and compares suppliers, including those that aren't online: real order cost, weighted reviews, trust from referrals and an optional Claude API agent. 23 countries, 4 languages. | [Demo](https://dsergio909.github.io/supplier-scout/) · [Code](https://github.com/Dsergio909/supplier-scout) |
+| **AI agents** | 3D design and marketing agents built with Claude Code, connected to Blender, Bambu Studio and DaVinci Resolve, plus a local inventory and content dashboard (Python, FastAPI, SQLite). | [Case study](https://dsergio909.github.io/?lang=en#caso-foxy) (private code) |
+| **Crunch Heist** | Roblox game with an original world: base raids, tycoon and collection, no pay-to-win. Built with Claude Code. | In testing |
 
-### 🧰 Stack
-Claude Code · Gemini · Local LLMs (Ollama) · Apps Script · AppSheet · n8n · Make · Blender · DaVinci Resolve · Inkscape · Canva · Bambu Studio · Bloomberg Market Concepts · Excel
+### `> cat stack.txt`
+Claude Code · MCP · Gemini · Local LLMs (Ollama) · Apps Script · AppSheet · n8n · Make · Blender · DaVinci Resolve · Bambu Studio · Inkscape · Canva · Excel · Bloomberg Market Concepts. Learning now: Power BI · SQL.
 
-📚 **Learning now:** Power BI · SQL
-
-### 📫 Contact
+### `> contact`
 [Portfolio](https://dsergio909.github.io/) · [LinkedIn](https://linkedin.com/in/sergio-david-garcia-celis-836b8a250) · [dsergio909@gmail.com](mailto:dsergio909@gmail.com)
+
+</details>
+
+<div align="center"><sub>El banner se actualiza solo cada día con mi último proyecto público.</sub></div>

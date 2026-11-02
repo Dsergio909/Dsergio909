@@ -1,0 +1,29 @@
+name: Banner en vivo
+
+on:
+  schedule:
+    - cron: '41 11 * * *'  # todos los días, 6:41 a. m. en Bogotá
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Actualizar la línea «último push»
+        run: python3 scripts/update_live.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Guardar si cambió
+        run: |
+          if git diff --quiet; then
+            echo "Sin cambios"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Actualiza la línea en vivo del banner"
+          git push
