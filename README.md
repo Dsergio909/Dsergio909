@@ -16,7 +16,7 @@
 
 Profesional en **Negocios Internacionales** (Universidad Santo Tomás, grado en trámite) en Bogotá, Colombia. Resuelvo problemas operativos con la herramienta que el problema pida: **automatización, IA generativa, código y datos**. No vengo de ingeniería: aprendo construyendo.
 
-Trabajo como director de un equipo de IAs: unas diseñan, otras hacen el volumen y Claude audita todo antes de que llegue a producción. Lo dudoso siempre pasa por una persona.
+Trabajo como director de un equipo de IAs: unas diseñan, otras hacen el volumen y Claude audita todo antes de que llegue a producción. Lo dudoso siempre pasa por una persona, y nada sale sin pruebas.
 
 Busco un rol **remoto o híbrido (Bogotá)** en automatización de procesos, operaciones con IA o mercadeo digital.
 
@@ -30,6 +30,22 @@ Busco un rol **remoto o híbrido (Bogotá)** en automatización de procesos, ope
 <img src="assets/card-crunch-heist.svg" alt="Crunch Heist: juego de Roblox con universo propio, en pruebas" width="49%"/>
 
 <sub>Código: [supplier-radar](https://github.com/Dsergio909/supplier-radar) · [supplier-scout](https://github.com/Dsergio909/supplier-scout) · el de los agentes es privado.</sub>
+
+<img src="assets/matrix-divider.svg" width="100%" alt=""/>
+
+## `> tail logros.log`
+
+Cifras reales de mi registro de trabajo. Cada entrega lleva su verificación.
+
+```text
+[ OK ] supplier-radar     34 pruebas automáticas · 0 herramientas de pago
+[ OK ] expedientes        64.250 páginas unificadas para una entidad pública
+                          212 de 212 archivos verificados uno por uno
+[ OK ] software TRD       170 pruebas automáticas · 129 de 129 códigos
+                          iguales a los del archivista
+[ OK ] panel de mercadeo  46 pruebas · leyó 285 videos de 14 cuentas con IA local
+[ OK ] video con IA       generado en mi propio PC, sin nube, con 8 GB de VRAM
+```
 
 <img src="assets/matrix-divider.svg" width="100%" alt=""/>
 
@@ -54,7 +70,7 @@ explorando       Antigravity · Google Flow · Higgsfield · Adobe
 
 **International Business** graduate (Universidad Santo Tomás, diploma pending) based in Bogotá, Colombia. I solve operational problems with whatever tool the problem calls for: **automation, generative AI, code and data**. I don't come from an engineering background: I learn by building.
 
-I work as the director of a team of AIs: some design, others handle the volume, and Claude audits everything before it ships. Anything unclear always goes to a person.
+I work as the director of a team of AIs: some design, others handle the volume, and Claude audits everything before it ships. Anything unclear always goes to a person, and nothing ships without tests.
 
 Looking for a **remote or hybrid (Bogotá)** role in process automation, AI operations or digital marketing.
 
@@ -66,6 +82,17 @@ Looking for a **remote or hybrid (Bogotá)** role in process automation, AI oper
 | **Supplier Scout** | Finds and compares suppliers, including those that aren't online: real order cost, weighted reviews, trust from referrals and an optional Claude API agent. 23 countries, 4 languages. | [Demo](https://dsergio909.github.io/supplier-scout/) · [Code](https://github.com/Dsergio909/supplier-scout) |
 | **AI agents** | 3D design and marketing agents built with Claude Code, connected to Blender, Bambu Studio and DaVinci Resolve, plus a local inventory and content dashboard (Python, FastAPI, SQLite). | [Case study](https://dsergio909.github.io/?lang=en#caso-foxy) (private code) |
 | **Crunch Heist** | Roblox game with an original world: base raids, tycoon and collection, no pay-to-win. Built with Claude Code. | In testing |
+
+### `> tail achievements.log`
+```text
+[ OK ] supplier-radar     34 automated tests · 0 paid tools
+[ OK ] case files         64,250 pages consolidated for a public agency
+                          212 of 212 files verified one by one
+[ OK ] TRD software       170 automated tests · 129 of 129 codes
+                          matching the archivist's
+[ OK ] marketing panel    46 tests · read 285 videos from 14 accounts with local AI
+[ OK ] AI video           generated on my own PC, no cloud, with 8 GB of VRAM
+```
 
 ### `> cat stack.txt`
 Claude Code · MCP · Gemini · Local LLMs (Ollama) · Apps Script · AppSheet · n8n · Make · Blender · DaVinci Resolve · Bambu Studio · Inkscape · Canva · Excel · Bloomberg Market Concepts. Learning now: Power BI · SQL.
