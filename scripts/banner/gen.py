@@ -32,7 +32,7 @@ def font_css(weights, text=None):
         path = os.path.join(HERE, 'fonts', f'jetbrains-mono-latin-{w}-normal.woff2')
         data = open(path, 'rb').read()
         if text:
-            f = TTFont(io.BytesIO(data))
+            f = TTFont(io.BytesIO(data), recalcTimestamp=False)
             opts = subset.Options()
             opts.flavor = 'woff2'
             sub = subset.Subsetter(opts)
@@ -165,7 +165,7 @@ def banner():
         col = G3 if done else G4
         mark = '[ OK ]' if done else '[    ]'
         dots = '.' * max(2, 34 - len(name))
-        A.append(f'<g clip-path="url(#ty{i})"><text x="56" y="{y}" font-size="15">'
+        A.append(f'<g clip-path="url(#ty{i})"><text class="m" x="56" y="{y}" font-size="15">'
                  f'<tspan fill="{col}">{mark}</tspan><tspan fill="{G4}"> {esc(name)} </tspan><tspan fill="{G0}">{dots}</tspan>'
                  f'<tspan fill="{col}"> {st}</tspan></text>')
         if not done:
@@ -174,7 +174,7 @@ def banner():
                 for j, f in enumerate(frames):
                     vis = ['0'] * 4
                     vis[(j + (slot - 2) * 2) % 4] = '1'
-                    A.append(f'<text x="{56 + slot * adv}" y="{y}" font-size="15" fill="{G4}" opacity="0">{esc(f)}'
+                    A.append(f'<text class="m" x="{56 + slot * adv}" y="{y}" font-size="15" fill="{G4}" opacity="0">{esc(f)}'
                              f'<animate attributeName="opacity" values="{";".join(vis)}" dur=".6s" repeatCount="indefinite" calcMode="discrete"/></text>')
         A.append('</g>')
     A.append(f'<rect x="56" y="404" width="0" height="6" fill="{G2}" filter="url(#glow)">'
