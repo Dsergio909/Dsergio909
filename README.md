@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://dsergio909.github.io/"><img src="assets/matrix.svg" alt="Sergio García en estilo Matrix: su cara formada por caracteres verdes y un registro de lo que hace que se va actualizando" width="100%"/></a>
+<a href="https://dsergio909.github.io/"><img src="assets/matrix.svg" alt="Sergio García en estilo Matrix: su cara formada por caracteres verdes, dos gatos de código y un registro de lo que hace que se va actualizando" width="100%"/></a>
 
 <a href="https://dsergio909.github.io/"><img src="assets/pill-portafolio.svg" alt="Portafolio" height="46"/></a>
 <a href="https://linkedin.com/in/sergio-david-garcia-celis-836b8a250"><img src="assets/pill-linkedin.svg" alt="LinkedIn" height="46"/></a>

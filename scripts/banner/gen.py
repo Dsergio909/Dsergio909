@@ -76,13 +76,73 @@ def rain(width, height, step, chars, size=15, dim=1.0):
 # =====================================================================
 # BANNER
 # =====================================================================
+CAT_SIT = ['..#.....#...........', '..##...##...........', '..#######...........', '.#########..........',
+           '.##E###E##..........', '.####n####..........', '..#######...........', '...#####............',
+           '..#######...........', '.#########..........', '.##########.........', '.###########........',
+           '.############.......', '.############.......', '.#############......', '.#############......',
+           '..############......', '..##.##..##.##......']
+CAT_TAIL = {10: 14, 11: 15, 12: 16, 13: 16, 14: 15, 15: 14, 16: 13}  # fila: columna de la cola
+CAT_WALK = ['............#.#.', '#...........###.', '.#..........#E#.', '..#.###########.', '...###########..', '...##########...']
+CAT_LEGS = ['...#.#....#.#...', '....#.#..#.#....']
+FUR = '#%8&$@MW'
+CAT_RNG = random.Random(7)  # azar propio: los gatos no cambian el resto de los SVG
+
+
+def cat_rows(mask, x0, y0, cw, ch, colors):
+    """Texto por fila con caracteres densos donde la máscara tiene # (ojos y nariz aparte)."""
+    out, eyes = [], []
+    for r, row in enumerate(mask):
+        line = ''.join(CAT_RNG.choice(FUR) if ch_ == '#' else ' ' for ch_ in row)
+        if line.strip():
+            out.append(f'<text class="m" x="{x0}" y="{y0 + (r + 1) * ch:.1f}" font-size="10" font-weight="700" '
+                       f'fill="{colors[min(r * len(colors) // len(mask), len(colors) - 1)]}">{esc(line)}</text>')
+        for c, ch_ in enumerate(row):
+            if ch_ in 'En':
+                eyes.append((x0 + c * cw, y0 + (r + 1) * ch, ch_))
+    return ''.join(out), eyes
+
+
+def cats(cw, ch):
+    """Un gato sentado junto a la cara (parpadea y mueve la cola) y otro que cruza por arriba."""
+    A = []
+    x0, y0 = 600, 295
+    bx, by = x0, y0 + 18 * ch  # base del gato: desde ahí se agranda
+    body, eyes = cat_rows(CAT_SIT, x0, y0, cw, ch, [G4, G3, G3, G2])
+    px, py = x0 + 13 * cw, y0 + 17 * ch
+    tail = ''.join(f'<text class="m" x="{x0 + c * cw}" y="{y0 + (r + 1) * ch:.1f}" font-size="10" font-weight="700" fill="{G3}">'
+                   f'{esc(CAT_RNG.choice(FUR))}{CAT_RNG.choice(FUR) if r in (12, 13) else ""}</text>' for r, c in CAT_TAIL.items())
+    A.append(f'<g filter="url(#glow)" transform="translate({bx} {by:.1f}) scale(1.25) translate({-bx} {-by:.1f})"><g>{tail}<animateTransform attributeName="transform" type="rotate" '
+             f'values="0 {px:.0f} {py:.0f};-14 {px:.0f} {py:.0f};0 {px:.0f} {py:.0f};8 {px:.0f} {py:.0f};0 {px:.0f} {py:.0f}" dur="3.2s" repeatCount="indefinite"/></g>{body}')
+    for x, y, k in eyes:
+        if k == 'n':
+            A.append(f'<text class="m" x="{x}" y="{y:.1f}" font-size="10" font-weight="700" fill="{G4}">v</text>')
+            continue
+        A.append(f'<text class="m" x="{x}" y="{y:.1f}" font-size="10" font-weight="700" fill="#ffffff">O'
+                 '<animate attributeName="opacity" values="1;0;1;1" keyTimes="0;.02;.06;1" dur="4.5s" repeatCount="indefinite" calcMode="discrete"/></text>'
+                 f'<text class="m" x="{x}" y="{y:.1f}" font-size="10" font-weight="700" fill="#ffffff" opacity="0">-'
+                 '<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.02;.06;1" dur="4.5s" repeatCount="indefinite" calcMode="discrete"/></text>')
+    A.append('</g>')
+    # gato que camina por el borde de arriba
+    body, eyes = cat_rows(CAT_WALK, 0, 0, cw, ch, [G4, G3])
+    legs = []
+    for j, frame in enumerate(CAT_LEGS):
+        line = ''.join(CAT_RNG.choice(FUR) if c == '#' else ' ' for c in frame)
+        vals = '1;0' if j == 0 else '0;1'
+        legs.append(f'<text class="m" x="0" y="{7 * ch:.1f}" font-size="10" font-weight="700" fill="{G3}" opacity="{vals[0]}">{esc(line)}'
+                    f'<animate attributeName="opacity" values="{vals}" dur=".5s" repeatCount="indefinite" calcMode="discrete"/></text>')
+    eye = ''.join(f'<text class="m" x="{x}" y="{y:.1f}" font-size="10" font-weight="700" fill="#ffffff">O</text>' for x, y, _ in eyes)
+    A.append(f'<g filter="url(#glow)">{body}{"".join(legs)}{eye}'
+             '<animateTransform attributeName="transform" type="translate" values="-120 2;1320 2" dur="26s" begin="-9s" repeatCount="indefinite"/></g>')
+    return ''.join(A)
+
+
 def banner():
     W, H, CYC = 1200, 440, 14
     COLS, ROWS, CW, CH = 66, 54, 6, 7.4
     FX, FY = 772, 20
     A = []
     A.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">')
-    A.append('<title>Sergio García en estilo Matrix: su cara formada por caracteres verdes y un registro de lo que hace que se va actualizando</title>')
+    A.append('<title>Sergio García en estilo Matrix: su cara formada por caracteres verdes, dos gatos de código y un registro de lo que hace que se va actualizando</title>')
     A.append('<style>' + font_css((400, 700)) + '</style>')
 
     # cara a partir del avatar: brillo → carácter más denso y verde más claro
@@ -118,10 +178,11 @@ def banner():
            (True, 'Supplier Radar · Supplier Scout', 'en línea'),
            (False, 'Crunch Heist · juego de Roblox', 'en pruebas'),
            (False, 'modpack de Minecraft', 'construyendo'),
-           (False, 'Power BI · SQL', 'aprendiendo')]
+           (False, 'Power BI · SQL', 'aprendiendo'),
+           (True, 'gatos de la casa', 'supervisando')]
     for i in range(len(log)):
-        t0 = 0.06 + i * 0.075
-        A.append(f'<clipPath id="ty{i}"><rect x="56" y="{232 + i * 26}" height="22" width="0">'
+        t0 = 0.06 + i * 0.065
+        A.append(f'<clipPath id="ty{i}"><rect x="56" y="{230 + i * 24}" height="22" width="0">'
                  f'<animate attributeName="width" values="0;0;640;640;0" keyTimes="0;{t0:.3f};{t0 + .06:.3f};.9;1" dur="{CYC}s" repeatCount="indefinite"/></rect></clipPath>')
     A.append('</defs>')
 
@@ -150,6 +211,8 @@ def banner():
              f'<animate attributeName="y" values="{FY - 20};{FY + ROWS * CH};{FY + ROWS * CH}" keyTimes="0;.2;1" dur="{CYC}s" repeatCount="indefinite"/>'
              f'<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.19;.21;1" dur="{CYC}s" repeatCount="indefinite"/></rect>')
 
+    A.append(cats(CW, CH))
+
     # izquierda: identidad y registro
     A.append('<g class="m">')
     A.append(f'<text x="56" y="70" font-size="15" fill="{G2}">sergio@bogota<tspan fill="{G3}">:~$</tspan> ./actualizar_perfil.sh</text>')
@@ -161,7 +224,7 @@ def banner():
     A.append(f'<text x="56" y="214" font-size="14" fill="{G1}">// <!--live-->{esc(LIVE_DEFAULT)}<!--/live--></text>')
     adv = 9  # avance de JetBrains Mono a 15 px
     for i, (done, name, st) in enumerate(log):
-        y = 248 + i * 26
+        y = 246 + i * 24
         col = G3 if done else G4
         mark = '[ OK ]' if done else '[    ]'
         dots = '.' * max(2, 34 - len(name))
@@ -177,10 +240,10 @@ def banner():
                     A.append(f'<text class="m" x="{56 + slot * adv}" y="{y}" font-size="15" fill="{G4}" opacity="0">{esc(f)}'
                              f'<animate attributeName="opacity" values="{";".join(vis)}" dur=".6s" repeatCount="indefinite" calcMode="discrete"/></text>')
         A.append('</g>')
-    A.append(f'<rect x="56" y="404" width="0" height="6" fill="{G2}" filter="url(#glow)">'
+    A.append(f'<rect x="56" y="412" width="0" height="6" fill="{G2}" filter="url(#glow)">'
              f'<animate attributeName="width" values="0;0;300;300;0" keyTimes="0;.5;.8;.9;1" dur="{CYC}s" repeatCount="indefinite"/></rect>')
-    A.append(f'<rect x="56" y="404" width="300" height="6" fill="none" stroke="{G0}"/>')
-    A.append(f'<text x="372" y="411" font-size="13" fill="{G3}">Bogotá · abierto a rol remoto</text>')
+    A.append(f'<rect x="56" y="412" width="300" height="6" fill="none" stroke="{G0}"/>')
+    A.append(f'<text x="372" y="419" font-size="13" fill="{G3}">Bogotá · abierto a rol remoto</text>')
     A.append('</g>')
 
     A.append(f'<rect width="{W}" height="{H}" fill="url(#scan)"/><rect width="{W}" height="{H}" fill="url(#vig)"/>')
