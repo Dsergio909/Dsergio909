@@ -25,7 +25,7 @@ Busco un rol **remoto o híbrido (Bogotá)** en automatización de procesos, ope
 ## `> ls ./proyectos`
 
 <a href="https://dsergio909.github.io/supplier-radar/"><img src="assets/card-supplier-radar.svg" alt="Supplier Radar: sistema de proveedores y contratos reconstruido con datos ficticios; lo dudoso pasa a revisión humana. Ver demo" width="49%"/></a>
-<a href="https://dsergio909.github.io/supplier-scout/"><img src="assets/card-supplier-scout.svg" alt="Supplier Scout: busca y compara proveedores, incluso los que no están en internet. Ver demo" width="49%"/></a>
+<a href="https://dsergio909.github.io/supplier-scout/"><img src="assets/card-supplier-scout.svg" alt="Supplier Scout: busca proveedores reales en cualquier ciudad o pueblo, aunque no tengan web. Ver demo" width="49%"/></a>
 <a href="https://dsergio909.github.io/#caso-foxy"><img src="assets/card-agentes-ia.svg" alt="Agentes de IA: diseño 3D y marketing con Claude Code conectados por MCP a Blender, Bambu Studio y DaVinci Resolve. Ver caso" width="49%"/></a>
 <img src="assets/card-crunch-heist.svg" alt="Crunch Heist: juego de Roblox con universo propio, en pruebas" width="49%"/>
 
@@ -38,7 +38,8 @@ Busco un rol **remoto o híbrido (Bogotá)** en automatización de procesos, ope
 Cifras reales de mi registro de trabajo. Cada entrega lleva su verificación.
 
 ```text
-[ OK ] supplier-radar     34 pruebas automáticas · 0 herramientas de pago
+[ OK ] supplier-scout     67 de 67 negocios reales comprobados · 179 pruebas
+[ OK ] supplier-radar     37 pruebas automáticas · 0 herramientas de pago
 [ OK ] expedientes        64.250 páginas unificadas para una entidad pública
                           212 de 212 archivos verificados uno por uno
 [ OK ] software TRD       170 pruebas automáticas · 129 de 129 códigos
@@ -79,13 +80,14 @@ Looking for a **remote or hybrid (Bogotá)** role in process automation, AI oper
 | Project | What it is | Links |
 |---|---|---|
 | **Supplier Radar** | Public rebuild, with synthetic data, of the supplier and contract system I built during my procurement internship: automatic document requests, confidence-tiered reply detection (unclear cases go to human review) and dashboards computed from dates only. Apps Script, zero paid tools. | [Demo](https://dsergio909.github.io/supplier-radar/) · [Code](https://github.com/Dsergio909/supplier-radar) |
-| **Supplier Scout** | Finds and compares suppliers, including those that aren't online: real order cost, weighted reviews, trust from referrals and an optional Claude API agent. 23 countries, 4 languages. | [Demo](https://dsergio909.github.io/supplier-scout/) · [Code](https://github.com/Dsergio909/supplier-scout) |
+| **Supplier Scout** | Finds real suppliers near any city or town, including those with no website: map, driving time, shortlist and quote requests. 67 of 67 businesses verified against OpenStreetMap; 23 countries, 4 languages. | [Demo](https://dsergio909.github.io/supplier-scout/) · [Code](https://github.com/Dsergio909/supplier-scout) |
 | **AI agents** | 3D design and marketing agents built with Claude Code, connected to Blender, Bambu Studio and DaVinci Resolve, plus a local inventory and content dashboard (Python, FastAPI, SQLite). | [Case study](https://dsergio909.github.io/?lang=en#caso-foxy) (private code) |
 | **Crunch Heist** | Roblox game with an original world: base raids, tycoon and collection, no pay-to-win. Built with Claude Code. | In testing |
 
 ### `> tail achievements.log`
 ```text
-[ OK ] supplier-radar     34 automated tests · 0 paid tools
+[ OK ] supplier-scout     67 of 67 real businesses verified · 179 tests
+[ OK ] supplier-radar     37 automated tests · 0 paid tools
 [ OK ] case files         64,250 pages consolidated for a public agency
                           212 of 212 files verified one by one
 [ OK ] TRD software       170 automated tests · 129 of 129 codes
