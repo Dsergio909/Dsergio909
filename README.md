@@ -26,10 +26,12 @@ Busco un rol **remoto o híbrido (Bogotá)** en automatización de procesos, ope
 
 <a href="https://dsergio909.github.io/supplier-radar/"><img src="assets/card-supplier-radar.svg" alt="Supplier Radar: sistema de proveedores de la práctica reconstruido con datos ficticios; lee hasta fotos del celular y revisa que cada documento esté vigente. Ver demo" width="49%"/></a>
 <a href="https://dsergio909.github.io/supplier-scout/"><img src="assets/card-supplier-scout.svg" alt="Supplier Scout: busca proveedores como lo hace compras: nacionales de SECOP II, los tuyos y los cercanos; 58 de 58 comprobados por NIT. Ver demo" width="49%"/></a>
+<a href="https://dsergio909.github.io/mesa-de-cotejo/"><img src="assets/card-mesa-de-cotejo.svg" alt="Mesa de Cotejo: reclamos por suplantación de identidad sin que se venza ningún plazo de la Ley 2573; 109 pruebas y las fechas nunca con IA. Ver demo" width="49%"/></a>
 <a href="https://dsergio909.github.io/#caso-foxy"><img src="assets/card-agentes-ia.svg" alt="Agentes de IA: diseño 3D y marketing con Claude Code conectados por MCP a Blender, Bambu Studio y DaVinci Resolve. Ver caso" width="49%"/></a>
+<a href="https://github.com/Dsergio909/ojo-del-mundo"><img src="assets/card-ojo-del-mundo.svg" alt="Ojo del mundo: dibuja un mundo de Minecraft en 3D desde sus archivos para que Claude lo revise; servidor MCP con 32 herramientas. Ver código" width="49%"/></a>
 <img src="assets/card-crunch-heist.svg" alt="Crunch Heist: juego de Roblox con universo propio, en pruebas" width="49%"/>
 
-<sub>Código: [supplier-radar](https://github.com/Dsergio909/supplier-radar) · [supplier-scout](https://github.com/Dsergio909/supplier-scout) · el de los agentes es privado.</sub>
+<sub>Código: [supplier-radar](https://github.com/Dsergio909/supplier-radar) · [supplier-scout](https://github.com/Dsergio909/supplier-scout) · [mesa-de-cotejo](https://github.com/Dsergio909/mesa-de-cotejo) · [ojo-del-mundo](https://github.com/Dsergio909/ojo-del-mundo) · el de los agentes es privado.</sub>
 
 <img src="assets/matrix-divider.svg" width="100%" alt=""/>
 
@@ -40,6 +42,8 @@ Cifras reales de mi registro de trabajo. Cada entrega lleva su verificación.
 ```text
 [ OK ] supplier-scout     58 de 58 proveedores comprobados por NIT · 199 pruebas
 [ OK ] supplier-radar     159/201 fotos difíciles bien leídas · 0 aplicadas mal
+[ OK ] mesa-de-cotejo     109 pruebas · 24 de 24 fallas de auditoría corregidas
+[ OK ] ojo-del-mundo      32 herramientas MCP · pruebas en Windows y Linux
 [ OK ] expedientes        64.250 páginas unificadas para una entidad pública
                           212 de 212 archivos verificados uno por uno
 [ OK ] software TRD       170 pruebas automáticas · 129 de 129 códigos
@@ -81,13 +85,17 @@ Looking for a **remote or hybrid (Bogotá)** role in process automation, AI oper
 |---|---|---|
 | **Supplier Radar** | Public rebuild, with synthetic data, of the supplier and contract system I built during my procurement internship: automatic document requests, confidence-tiered reply detection (unclear cases go to human review), documents read by content, even phone photos, and checked for age, and dashboards computed from dates only. Apps Script, zero paid tools. | [Demo](https://dsergio909.github.io/supplier-radar/) · [Code](https://github.com/Dsergio909/supplier-radar) |
 | **Supplier Scout** | Finds suppliers the way purchasing does: national companies and individuals that already sell to the state (SECOP II), your own suppliers, nearby businesses and ready-made web searches, then a shortlist and quote requests. 58 of 58 national suppliers verified by tax ID. | [Demo](https://dsergio909.github.io/supplier-scout/) · [Code](https://github.com/Dsergio909/supplier-scout) |
+| **Mesa de Cotejo** | Operations desk for a lender to handle identity-theft claims without missing any deadline of Colombia's Law 2573 of 2026: legal clock in business days, evidence score, fraud networks and two-signature approvals. Legal dates come from code, never from AI. 109 tests. | [Demo](https://dsergio909.github.io/mesa-de-cotejo/) · [Code](https://github.com/Dsergio909/mesa-de-cotejo) |
 | **AI agents** | 3D design and marketing agents built with Claude Code, connected to Blender, Bambu Studio and DaVinci Resolve, plus a local inventory and content dashboard (Python, FastAPI, SQLite). | [Case study](https://dsergio909.github.io/?lang=en#caso-foxy) (private code) |
+| **Ojo del mundo** | Draws a Minecraft world in 3D straight from its save files so Claude can review it without screenshots. MCP server with 32 tools; tests run on Windows and Linux. | [Code](https://github.com/Dsergio909/ojo-del-mundo) |
 | **Crunch Heist** | Roblox game with an original world: base raids, tycoon and collection, no pay-to-win. Built with Claude Code. | In testing |
 
 ### `> tail achievements.log`
 ```text
 [ OK ] supplier-scout     58 of 58 suppliers verified by tax ID · 199 tests
 [ OK ] supplier-radar     159/201 hard photos read right · 0 wrongly applied
+[ OK ] mesa-de-cotejo     109 tests · 24 of 24 audit findings fixed
+[ OK ] ojo-del-mundo      32 MCP tools · tests on Windows and Linux
 [ OK ] case files         64,250 pages consolidated for a public agency
                           212 of 212 files verified one by one
 [ OK ] TRD software       170 automated tests · 129 of 129 codes
