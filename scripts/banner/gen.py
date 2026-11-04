@@ -257,11 +257,11 @@ def banner():
 # =====================================================================
 CARDS = [
     ('supplier-radar', 'Supplier Radar', True, 'en línea',
-     ['Mi sistema de proveedores y contratos de', 'la práctica, rehecho con datos ficticios.', 'Lo dudoso siempre pasa a revisión humana.'],
-     'apps-script · gmail · sheets · $0 licencias', 'ver demo →'),
+     ['Mi sistema de proveedores de la práctica,', 'rehecho: lee hasta fotos del celular y', 'revisa que cada documento esté vigente.'],
+     'apps-script · ocr · gmail · $0 licencias', 'ver demo →'),
     ('supplier-scout', 'Supplier Scout', True, 'en línea',
-     ['Busca proveedores reales en cualquier', 'ciudad o pueblo, aunque no tengan web.', '67 de 67 negocios comprobados en vivo.'],
-     'openstreetmap · 179 pruebas · 4 idiomas', 'ver demo →'),
+     ['Busca proveedores como lo hace compras:', 'nacionales (SECOP II), los tuyos y los', 'cercanos. 58 de 58 comprobados por NIT.'],
+     'secop-ii · openstreetmap · 199 pruebas', 'ver demo →'),
     ('agentes-ia', 'Agentes de IA', True, 'en uso',
      ['Agentes de diseño 3D y marketing con', 'Claude Code, conectados por MCP a Blender,', 'Bambu Studio y DaVinci Resolve.'],
      'claude-code · mcp · python · fastapi', 'ver caso →'),
