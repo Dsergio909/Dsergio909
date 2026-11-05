@@ -433,7 +433,7 @@
 <text x="742" y="70" text-anchor="end" font-size="13" fill="#ffffff">[ sigue al conejo blanco ]<animate attributeName="opacity" values="1;.25;1" dur="2.2s" repeatCount="indefinite"/></text>
 <g filter="url(#glow2)"><text x="52" y="136" font-size="60" font-weight="700" fill="#b3ffcb" letter-spacing="1">SERGIO GARCÍA<animate attributeName="opacity" values="1;1;.4;1;.75;1;1" keyTimes="0;.6;.61;.62;.63;.64;1" dur="5s" repeatCount="indefinite"/></text></g>
 <text x="56" y="170" font-size="17" fill="#6cf597">Negocios Internacionales · IA · Automatización</text>
-<text x="56" y="214" font-size="14" fill="#138a3b">// <!--live-->último push: dsergio909.github.io · 4 nov 2026<!--/live--></text>
+<text x="56" y="214" font-size="14" fill="#138a3b">// <!--live-->último push: olist-logistica-sql · 5 nov 2026<!--/live--></text>
 <g clip-path="url(#ty0)"><text class="m" x="56" y="246" font-size="15"><tspan fill="#6cf597">[ OK ]</tspan><tspan fill="#b3ffcb"> automatización de procesos </tspan><tspan fill="#0a4a22">........</tspan><tspan fill="#6cf597"> instalado</tspan></text>
 </g>
 <g clip-path="url(#ty1)"><text class="m" x="56" y="270" font-size="15"><tspan fill="#6cf597">[ OK ]</tspan><tspan fill="#b3ffcb"> agentes de IA con Claude Code </tspan><tspan fill="#0a4a22">.....</tspan><tspan fill="#6cf597"> instalado</tspan></text>
