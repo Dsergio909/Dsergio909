@@ -18,12 +18,16 @@ Profesional en **Negocios Internacionales** (Universidad Santo Tomás, grado en 
 
 Trabajo como director de un equipo de IAs: unas diseñan, otras hacen el volumen y Claude audita todo antes de que llegue a producción. Lo dudoso siempre pasa por una persona, y nada sale sin pruebas.
 
-Busco un rol **remoto o híbrido (Bogotá)** en automatización de procesos, operaciones con IA o mercadeo digital.
+Busco un rol **remoto o híbrido (Bogotá)** en análisis de datos, automatización de procesos, operaciones con IA o mercadeo digital.
 
 <img src="assets/matrix-divider.svg" width="100%" alt=""/>
 
 ## `> ls ./proyectos`
 
+<a href="https://github.com/Dsergio909/comercio-exterior-colombia"><img src="assets/card-comercio-exterior-colombia.svg" alt="Comercio exterior: 3,7 millones de registros del DANE en SQL y Power BI; cuadra 13 de 13 con el boletín; n8n con IA local que yo apruebo. Ver código" width="49%"/></a>
+<a href="https://github.com/Dsergio909/olist-logistica-sql"><img src="assets/card-olist-logistica-sql.svg" alt="Olist logística: 99.441 pedidos de una tienda de Brasil; dónde se demoran las entregas y cuánto baja la nota con cada día de retraso. Ver código" width="49%"/></a>
+<a href="https://github.com/Dsergio909/vuelos-colombia"><img src="assets/card-vuelos-colombia.svg" alt="Vuelos en Colombia: rutas, temporadas y aerolíneas con datos de la Aerocivil; sin Viva y Ultra, Avianca y LATAM subieron al 77,9 %. Ver código" width="49%"/></a>
+<a href="https://github.com/Dsergio909/taller3d-costos"><img src="assets/card-taller3d-costos.svg" alt="Taller 3D: costos. Cuánto cuesta de verdad cada pieza y a qué precio venderla; cotiza en n8n y yo apruebo; datos inventados. Ver código" width="49%"/></a>
 <a href="https://dsergio909.github.io/supplier-radar/"><img src="assets/card-supplier-radar.svg" alt="Supplier Radar: sistema de proveedores de la práctica reconstruido con datos ficticios; lee hasta fotos del celular y revisa que cada documento esté vigente. Ver demo" width="49%"/></a>
 <a href="https://dsergio909.github.io/supplier-scout/"><img src="assets/card-supplier-scout.svg" alt="Supplier Scout: busca proveedores como lo hace compras: nacionales de SECOP II, los tuyos y los cercanos; 58 de 58 comprobados por NIT. Ver demo" width="49%"/></a>
 <a href="https://dsergio909.github.io/mesa-de-cotejo/"><img src="assets/card-mesa-de-cotejo.svg" alt="Mesa de Cotejo: reclamos por suplantación de identidad sin que se venza ningún plazo de la Ley 2573; 109 pruebas y las fechas nunca con IA. Ver demo" width="49%"/></a>
@@ -31,7 +35,7 @@ Busco un rol **remoto o híbrido (Bogotá)** en automatización de procesos, ope
 <a href="https://github.com/Dsergio909/ojo-del-mundo"><img src="assets/card-ojo-del-mundo.svg" alt="Ojo del mundo: dibuja un mundo de Minecraft en 3D desde sus archivos para que Claude lo revise; servidor MCP con 32 herramientas. Ver código" width="49%"/></a>
 <img src="assets/card-crunch-heist.svg" alt="Crunch Heist: juego de Roblox con universo propio, en pruebas" width="49%"/>
 
-<sub>Código: [supplier-radar](https://github.com/Dsergio909/supplier-radar) · [supplier-scout](https://github.com/Dsergio909/supplier-scout) · [mesa-de-cotejo](https://github.com/Dsergio909/mesa-de-cotejo) · [ojo-del-mundo](https://github.com/Dsergio909/ojo-del-mundo) · el de los agentes es privado.</sub>
+<sub>Código: [comercio-exterior-colombia](https://github.com/Dsergio909/comercio-exterior-colombia) · [olist-logistica-sql](https://github.com/Dsergio909/olist-logistica-sql) · [vuelos-colombia](https://github.com/Dsergio909/vuelos-colombia) · [taller3d-costos](https://github.com/Dsergio909/taller3d-costos) · [supplier-radar](https://github.com/Dsergio909/supplier-radar) · [supplier-scout](https://github.com/Dsergio909/supplier-scout) · [mesa-de-cotejo](https://github.com/Dsergio909/mesa-de-cotejo) · [ojo-del-mundo](https://github.com/Dsergio909/ojo-del-mundo) · el de los agentes es privado.</sub>
 
 <img src="assets/matrix-divider.svg" width="100%" alt=""/>
 
@@ -40,6 +44,10 @@ Busco un rol **remoto o híbrido (Bogotá)** en automatización de procesos, ope
 Cifras reales de mi registro de trabajo. Cada entrega lleva su verificación.
 
 ```text
+[ OK ] comercio-exterior  13 de 13 cifras del boletín del DANE · 96 pruebas
+[ OK ] vuelos-colombia    56 de 56 cifras del tablero iguales al SQL · 41 pruebas
+[ OK ] olist-logistica    35 cifras rehechas por otro camino, todas iguales · 58 pruebas
+[ OK ] taller3d-costos    la misma fórmula en Python, SQL, Power BI y n8n · 66 pruebas
 [ OK ] supplier-scout     58 de 58 proveedores comprobados por NIT · 199 pruebas
 [ OK ] supplier-radar     159/201 fotos difíciles bien leídas · 0 aplicadas mal
 [ OK ] mesa-de-cotejo     109 pruebas · 24 de 24 fallas de auditoría corregidas
@@ -60,8 +68,8 @@ Cifras reales de mi registro de trabajo. Cada entrega lleva su verificación.
 ia_y_agentes     Claude Code · MCP · Gemini · IA local (Ollama)
 automatizacion   Apps Script · AppSheet · n8n · Make
 3d_y_video       Blender · DaVinci Resolve · Bambu Studio · Inkscape · Canva
-negocios_datos   Excel · Bloomberg Market Concepts
-aprendiendo      Power BI · SQL
+datos            SQL · DuckDB · Power BI · DAX · Power Query · Excel
+negocios         Bloomberg Market Concepts
 explorando       Antigravity · Google Flow · Higgsfield · Adobe
 ```
 
@@ -77,12 +85,16 @@ explorando       Antigravity · Google Flow · Higgsfield · Adobe
 
 I work as the director of a team of AIs: some design, others handle the volume, and Claude audits everything before it ships. Anything unclear always goes to a person, and nothing ships without tests.
 
-Looking for a **remote or hybrid (Bogotá)** role in process automation, AI operations or digital marketing.
+Looking for a **remote or hybrid (Bogotá)** role in data analysis, process automation, AI operations or digital marketing.
 
 ### `> ls ./projects`
 
 | Project | What it is | Links |
 |---|---|---|
+| **Colombia's foreign trade** | DANE export microdata (3.7 million records) in SQL and Power BI. All 13 bulletin figures reconcile; found errors the bulletin doesn't show. Two n8n flows with a local AI summary I approve. 96 tests. | [Code](https://github.com/Dsergio909/comercio-exterior-colombia) |
+| **Olist logistics** | 99,441 orders from a Brazilian online store: where deliveries get delayed and how much the review score drops per day late. SQL, Power BI, 58 tests. | [Code](https://github.com/Dsergio909/olist-logistica-sql) |
+| **Flights in Colombia** | Routes, seasons and airlines with Aerocivil data. After Viva and Ultra left, Avianca and LATAM rose to 77.9% of domestic passengers. SQL, Power BI, 41 tests. | [Code](https://github.com/Dsergio909/vuelos-colombia) |
+| **3D workshop costing** | What each piece really costs and what to charge, with an n8n quote I approve. Made-up data, real method; the same formula in Python, SQL, Power BI and n8n. 66 tests. | [Code](https://github.com/Dsergio909/taller3d-costos) |
 | **Supplier Radar** | Public rebuild, with synthetic data, of the supplier and contract system I built during my procurement internship: automatic document requests, confidence-tiered reply detection (unclear cases go to human review), documents read by content, even phone photos, and checked for age, and dashboards computed from dates only. Apps Script, zero paid tools. | [Demo](https://dsergio909.github.io/supplier-radar/) · [Code](https://github.com/Dsergio909/supplier-radar) |
 | **Supplier Scout** | Finds suppliers the way purchasing does: national companies and individuals that already sell to the state (SECOP II), your own suppliers, nearby businesses and ready-made web searches, then a shortlist and quote requests. 58 of 58 national suppliers verified by tax ID. | [Demo](https://dsergio909.github.io/supplier-scout/) · [Code](https://github.com/Dsergio909/supplier-scout) |
 | **Mesa de Cotejo** | Operations desk for a lender to handle identity-theft claims without missing any deadline of Colombia's Law 2573 of 2026: legal clock in business days, evidence score, fraud networks and two-signature approvals. Legal dates come from code, never from AI. 109 tests. | [Demo](https://dsergio909.github.io/mesa-de-cotejo/) · [Code](https://github.com/Dsergio909/mesa-de-cotejo) |
@@ -92,6 +104,10 @@ Looking for a **remote or hybrid (Bogotá)** role in process automation, AI oper
 
 ### `> tail achievements.log`
 ```text
+[ OK ] foreign-trade      13 of 13 DANE bulletin figures match · 96 tests
+[ OK ] flights-colombia   56 of 56 dashboard figures match the SQL · 41 tests
+[ OK ] olist-logistics    35 figures redone another way, all equal · 58 tests
+[ OK ] 3d-workshop-costs  same formula in Python, SQL, Power BI and n8n · 66 tests
 [ OK ] supplier-scout     58 of 58 suppliers verified by tax ID · 199 tests
 [ OK ] supplier-radar     159/201 hard photos read right · 0 wrongly applied
 [ OK ] mesa-de-cotejo     109 tests · 24 of 24 audit findings fixed
@@ -105,7 +121,7 @@ Looking for a **remote or hybrid (Bogotá)** role in process automation, AI oper
 ```
 
 ### `> cat stack.txt`
-Claude Code · MCP · Gemini · Local LLMs (Ollama) · Apps Script · AppSheet · n8n · Make · Blender · DaVinci Resolve · Bambu Studio · Inkscape · Canva · Excel · Bloomberg Market Concepts. Learning now: Power BI · SQL.
+Claude Code · MCP · Gemini · Local LLMs (Ollama) · Apps Script · AppSheet · n8n · Make · SQL · DuckDB · Power BI · DAX · Power Query · Excel · Blender · DaVinci Resolve · Bambu Studio · Inkscape · Canva · Bloomberg Market Concepts.
 
 ### `> contact`
 [Portfolio](https://dsergio909.github.io/) · [LinkedIn](https://linkedin.com/in/sergio-david-garcia-celis-836b8a250) · [dsergio909@gmail.com](mailto:dsergio909@gmail.com)

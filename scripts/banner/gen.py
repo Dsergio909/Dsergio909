@@ -256,6 +256,18 @@ def banner():
 # TARJETAS DE PROYECTO
 # =====================================================================
 CARDS = [
+    ('comercio-exterior-colombia', 'Comercio exterior', True, 'público',
+     ['3,7 millones de registros del DANE en', 'SQL y Power BI: cuadra 13 de 13 con el', 'boletín. n8n con IA local que yo apruebo.'],
+     'sql · duckdb · power-bi · n8n · 96 pruebas', 'ver código →'),
+    ('olist-logistica-sql', 'Olist logística', True, 'público',
+     ['99.441 pedidos de una tienda de Brasil:', 'dónde se demoran las entregas y cuánto', 'baja la nota con cada día de retraso.'],
+     'sql · duckdb · power-bi · 58 pruebas', 'ver código →'),
+    ('vuelos-colombia', 'Vuelos en Colombia', True, 'público',
+     ['Rutas, temporadas y aerolíneas con los', 'datos de la Aerocivil. Sin Viva y Ultra,', 'Avianca y LATAM subieron al 77,9 %.'],
+     'sql · duckdb · power-bi · 41 pruebas', 'ver código →'),
+    ('taller3d-costos', 'Taller 3D: costos', True, 'público',
+     ['Cuánto cuesta de verdad cada pieza y a', 'qué precio venderla. Cotiza en n8n y yo', 'apruebo. Datos inventados, método real.'],
+     'sql · power-bi · n8n · 66 pruebas', 'ver código →'),
     ('supplier-radar', 'Supplier Radar', True, 'en línea',
      ['Mi sistema de proveedores de la práctica,', 'rehecho: lee hasta fotos del celular y', 'revisa que cada documento esté vigente.'],
      'apps-script · ocr · gmail · $0 licencias', 'ver demo →'),
