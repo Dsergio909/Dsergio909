@@ -18,7 +18,7 @@ Profesional en **Negocios Internacionales** (Universidad Santo Tomás, grado en 
 
 Trabajo como director de un equipo de IAs: unas diseñan, otras hacen el volumen y Claude audita todo antes de que llegue a producción. Lo dudoso siempre pasa por una persona, y nada sale sin pruebas.
 
-Busco un rol **remoto o híbrido (Bogotá)** en análisis de datos, automatización de procesos, operaciones con IA o mercadeo digital.
+Busco un rol **remoto o híbrido (Bogotá)** en análisis de datos, automatización de procesos, operaciones con IA o contenido con IA.
 
 <img src="assets/matrix-divider.svg" width="100%" alt=""/>
 
@@ -85,7 +85,7 @@ explorando       Antigravity · Google Flow · Higgsfield · Adobe
 
 I work as the director of a team of AIs: some design, others handle the volume, and Claude audits everything before it ships. Anything unclear always goes to a person, and nothing ships without tests.
 
-Looking for a **remote or hybrid (Bogotá)** role in data analysis, process automation, AI operations or digital marketing.
+Looking for a **remote or hybrid (Bogotá)** role in data analysis, process automation, AI operations or AI content.
 
 ### `> ls ./projects`
 
