@@ -52,10 +52,6 @@ Cifras reales de mi registro de trabajo. Cada entrega lleva su verificación.
 [ OK ] supplier-radar     159/201 fotos difíciles bien leídas · 0 aplicadas mal
 [ OK ] mesa-de-cotejo     109 pruebas · 24 de 24 fallas de auditoría corregidas
 [ OK ] ojo-del-mundo      32 herramientas MCP · pruebas en Windows y Linux
-[ OK ] expedientes        64.250 páginas unificadas para una entidad pública
-                          212 de 212 archivos verificados uno por uno
-[ OK ] software TRD       170 pruebas automáticas · 129 de 129 códigos
-                          iguales a los del archivista
 [ OK ] panel de mercadeo  46 pruebas · leyó 285 videos de 14 cuentas con IA local
 [ OK ] video con IA       generado en mi propio PC, sin nube, con 8 GB de VRAM
 ```
@@ -112,10 +108,6 @@ Looking for a **remote or hybrid (Bogotá)** role in data analysis, process auto
 [ OK ] supplier-radar     159/201 hard photos read right · 0 wrongly applied
 [ OK ] mesa-de-cotejo     109 tests · 24 of 24 audit findings fixed
 [ OK ] ojo-del-mundo      32 MCP tools · tests on Windows and Linux
-[ OK ] case files         64,250 pages consolidated for a public agency
-                          212 of 212 files verified one by one
-[ OK ] TRD software       170 automated tests · 129 of 129 codes
-                          matching the archivist's
 [ OK ] marketing panel    46 tests · read 285 videos from 14 accounts with local AI
 [ OK ] AI video           generated on my own PC, no cloud, with 8 GB of VRAM
 ```
